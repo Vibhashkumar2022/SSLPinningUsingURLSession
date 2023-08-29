@@ -7,28 +7,44 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
-    @IBOutlet weak var listView : UITableView!
+class ListViewController: UIViewController{
     
+    @IBOutlet weak var listView : UITableView!
+    var viewModel = ListViewModel()
+    private var adapter : ListViewAdapter?
+    
+    //MARK: ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
+         self.configureTableView()
+         self.getApiResponse()
         // Do any additional setup after loading the view.
     }
     
     
+    //MARK: Configure Tableview Adapter
     func configureTableView(){
+        self.adapter = ListViewAdapter(tableView: listView, delegate: self, viewModel: viewModel)
+    }
+
+}
+
+extension ListViewController {
+    //MARK: Configure Datasource for Adapter
+    func getApiResponse(){
+        viewModel.getResponseFromApi { response, error in
+            self.viewModel.convertListResponseCellViewModel(dataModel: response)
+            self.adapter?.configureDataSourceForSelection()
+        }
+    }
+}
+//MARK:  delegates for Adapter
+extension ListViewController : ListViewAdapterDelegate {
+    func didSelectCellCallBack(index: IndexPath) {
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func deleteItemFromCart(index: IndexPath) {
+        
     }
-    */
-
 }
