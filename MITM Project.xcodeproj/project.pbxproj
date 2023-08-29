@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2482102A9D033400139DAD /* sni.cloudflaressl.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3B24820F2A9D033400139DAD /* sni.cloudflaressl.com.cer */; };
+		3B2482122A9D0D5400139DAD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2482112A9D0D5400139DAD /* Constant.swift */; };
 		3BEDB2AB2A9CE725007BCDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2AA2A9CE725007BCDEB /* AppDelegate.swift */; };
 		3BEDB2AD2A9CE725007BCDEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2AC2A9CE725007BCDEB /* SceneDelegate.swift */; };
 		3BEDB2AF2A9CE725007BCDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2AE2A9CE725007BCDEB /* ViewController.swift */; };
 		3BEDB2B22A9CE725007BCDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDB2B02A9CE725007BCDEB /* Main.storyboard */; };
 		3BEDB2B42A9CE729007BCDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDB2B32A9CE729007BCDEB /* Assets.xcassets */; };
 		3BEDB2B72A9CE729007BCDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDB2B52A9CE729007BCDEB /* LaunchScreen.storyboard */; };
+		3BEDB2C02A9CE753007BCDEB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2BF2A9CE753007BCDEB /* ListViewController.swift */; };
+		3BEDB2C42A9CE7EA007BCDEB /* ListViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2C32A9CE7EA007BCDEB /* ListViewAdapter.swift */; };
+		3BEDB2C82A9CE8C3007BCDEB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2C72A9CE8C3007BCDEB /* ListViewModel.swift */; };
+		3BEDB2CB2A9CE907007BCDEB /* ListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2CA2A9CE907007BCDEB /* ListResponseModel.swift */; };
+		3BEDB2CF2A9CEA29007BCDEB /* ListDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2CD2A9CEA29007BCDEB /* ListDetailsTableViewCell.swift */; };
+		3BEDB2D02A9CEA29007BCDEB /* ListDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDB2CE2A9CEA29007BCDEB /* ListDetailsTableViewCell.xib */; };
+		3BEDB2D32A9CEB61007BCDEB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDB2D22A9CEB61007BCDEB /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B24820F2A9D033400139DAD /* sni.cloudflaressl.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = sni.cloudflaressl.com.cer; sourceTree = "<group>"; };
+		3B2482112A9D0D5400139DAD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3BEDB2A72A9CE725007BCDEB /* MITM Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MITM Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEDB2AA2A9CE725007BCDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BEDB2AC2A9CE725007BCDEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		3BEDB2B32A9CE729007BCDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BEDB2B62A9CE729007BCDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BEDB2B82A9CE729007BCDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEDB2BF2A9CE753007BCDEB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3BEDB2C32A9CE7EA007BCDEB /* ListViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewAdapter.swift; sourceTree = "<group>"; };
+		3BEDB2C72A9CE8C3007BCDEB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		3BEDB2CA2A9CE907007BCDEB /* ListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListResponseModel.swift; sourceTree = "<group>"; };
+		3BEDB2CD2A9CEA29007BCDEB /* ListDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3BEDB2CE2A9CEA29007BCDEB /* ListDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		3BEDB2D22A9CEB61007BCDEB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B24820E2A9D033400139DAD /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				3B24820F2A9D033400139DAD /* sni.cloudflaressl.com.cer */,
+				3B2482112A9D0D5400139DAD /* Constant.swift */,
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
 		3BEDB29E2A9CE725007BCDEB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +83,8 @@
 		3BEDB2A92A9CE725007BCDEB /* MITM Project */ = {
 			isa = PBXGroup;
 			children = (
+				3B24820E2A9D033400139DAD /* Certificate */,
+				3BEDB2BE2A9CE739007BCDEB /* View */,
 				3BEDB2AA2A9CE725007BCDEB /* AppDelegate.swift */,
 				3BEDB2AC2A9CE725007BCDEB /* SceneDelegate.swift */,
 				3BEDB2AE2A9CE725007BCDEB /* ViewController.swift */,
@@ -65,6 +94,68 @@
 				3BEDB2B82A9CE729007BCDEB /* Info.plist */,
 			);
 			path = "MITM Project";
+			sourceTree = "<group>";
+		};
+		3BEDB2BE2A9CE739007BCDEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2D12A9CEB33007BCDEB /* DataController */,
+				3BEDB2CC2A9CEA0C007BCDEB /* Cells */,
+				3BEDB2C92A9CE8FA007BCDEB /* Model */,
+				3BEDB2C62A9CE8B5007BCDEB /* ViewModel */,
+				3BEDB2C22A9CE7D9007BCDEB /* Adapter */,
+				3BEDB2C12A9CE7C9007BCDEB /* ListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BEDB2C12A9CE7C9007BCDEB /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2BF2A9CE753007BCDEB /* ListViewController.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		3BEDB2C22A9CE7D9007BCDEB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2C32A9CE7EA007BCDEB /* ListViewAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3BEDB2C62A9CE8B5007BCDEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2C72A9CE8C3007BCDEB /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3BEDB2C92A9CE8FA007BCDEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2CA2A9CE907007BCDEB /* ListResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BEDB2CC2A9CEA0C007BCDEB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2CD2A9CEA29007BCDEB /* ListDetailsTableViewCell.swift */,
+				3BEDB2CE2A9CEA29007BCDEB /* ListDetailsTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3BEDB2D12A9CEB33007BCDEB /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				3BEDB2D22A9CEB61007BCDEB /* NetworkManager.swift */,
+			);
+			path = DataController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2482102A9D033400139DAD /* sni.cloudflaressl.com.cer in Resources */,
 				3BEDB2B72A9CE729007BCDEB /* LaunchScreen.storyboard in Resources */,
 				3BEDB2B42A9CE729007BCDEB /* Assets.xcassets in Resources */,
+				3BEDB2D02A9CEA29007BCDEB /* ListDetailsTableViewCell.xib in Resources */,
 				3BEDB2B22A9CE725007BCDEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEDB2D32A9CEB61007BCDEB /* NetworkManager.swift in Sources */,
 				3BEDB2AF2A9CE725007BCDEB /* ViewController.swift in Sources */,
 				3BEDB2AB2A9CE725007BCDEB /* AppDelegate.swift in Sources */,
+				3BEDB2C82A9CE8C3007BCDEB /* ListViewModel.swift in Sources */,
+				3BEDB2C42A9CE7EA007BCDEB /* ListViewAdapter.swift in Sources */,
+				3BEDB2CB2A9CE907007BCDEB /* ListResponseModel.swift in Sources */,
+				3BEDB2C02A9CE753007BCDEB /* ListViewController.swift in Sources */,
+				3B2482122A9D0D5400139DAD /* Constant.swift in Sources */,
+				3BEDB2CF2A9CEA29007BCDEB /* ListDetailsTableViewCell.swift in Sources */,
 				3BEDB2AD2A9CE725007BCDEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NRJ487R66;
@@ -302,6 +403,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TTN.MITM-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6NRJ487R66;
@@ -330,6 +433,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TTN.MITM-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
